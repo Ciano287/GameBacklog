@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Game Backlog</string>
+    <string name="title">Title</string>
+    <string name="platform">Platform</string>
+    <string name="status">Status</string>
+    <string name="save">Save</string>
+    <string name="make_game">Please fill in the title and the platform</string>
+    <string name="note_saved">Note saved!</string>
+    <string name="note_not_saved">Note not saved.</string>
+
+</resources>
