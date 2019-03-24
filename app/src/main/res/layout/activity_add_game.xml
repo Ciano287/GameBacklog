@@ -6,39 +6,48 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".AddGameActivity">
+    tools:context=".AddGameActivity"
+    android:background="@color/colorBackgroundDark">
 
-    <EditText
-        android:id="@+id/edit_text_title"
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/title"
-        android:inputType="text"
-        />
+        android:layout_height="wrap_content">
 
-    <EditText
-        android:id="@+id/edit_text_platform"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:hint="@string/platform"
-        android:inputType="text"
-        />
-    
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/status"
-        android:layout_marginTop="8dp"
-        android:textAppearance="@android:style/TextAppearance.Medium"/>
+        <EditText
+            android:id="@+id/edit_text_platform"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:hint="@string/platform"
+            android:inputType="text" />
 
-    <Spinner
-        android:id="@+id/spinner_status"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="95dp"
+            android:text="@string/status"
+            android:textAppearance="@android:style/TextAppearance.Medium" />
+
+        <EditText
+            android:id="@+id/edit_text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/title"
+            android:inputType="text"
+            android:padding="5dp" />
+
+        <Spinner
+            android:id="@+id/spinner_status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:padding="5dp" />
+    </android.support.v7.widget.CardView>
 
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:background="@color/colorBackgroundDark">
 
         <android.support.design.widget.FloatingActionButton
             android:id="@+id/button_save_game"

@@ -5,7 +5,6 @@ import android.arch.persistence.room.PrimaryKey;
 
 import java.text.DateFormat;
 import java.util.Calendar;
-import java.util.Date;
 
 @Entity(tableName = "game_table")
 public class Game {
