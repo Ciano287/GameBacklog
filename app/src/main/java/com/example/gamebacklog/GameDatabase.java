@@ -8,7 +8,7 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.support.annotation.NonNull;
 
-@Database(entities = Game.class, version = 1)
+@Database(entities = Game.class, version = 2)
 public abstract class GameDatabase extends RoomDatabase {
     private static GameDatabase instance;
 

@@ -5,7 +5,10 @@
     <string name="status">Status</string>
     <string name="save">Save</string>
     <string name="make_game">Please fill in the title and the platform</string>
-    <string name="note_saved">Note saved!</string>
-    <string name="note_not_saved">Note not saved.</string>
+    <string name="game_saved">Game saved!</string>
+    <string name="game_not_saved">Game not saved.</string>
+    <string name="delete_text">Game Deleted!</string>
+    <string name="delete_all_text">All Games Deleted!</string>
+    <string name="update_text">Game updated!</string>
 
 </resources>
